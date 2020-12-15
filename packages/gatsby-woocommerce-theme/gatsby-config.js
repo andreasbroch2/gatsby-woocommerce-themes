@@ -38,6 +38,10 @@ module.exports = ({ wordPressUrl, gatsbySiteUrl, googleTagManagerId, fbAppId }) 
         production: {
           hardCacheMediaFiles: false,
         },
+        schema: {
+          perPage: 50, 
+          requestConcurrency: 5,
+        },
         debug: {
           graphql: {
             showQueryOnError: false,
