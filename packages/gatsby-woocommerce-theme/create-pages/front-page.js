@@ -7,7 +7,7 @@ const { SeoFragment } = require('./fragements/seo/index.js');
 // Get all the front page data.
 const GET_FRONT_PAGE = `
 query GET_FRONT_PAGE {
-  page: wpPage(slug: {eq: "home"}) {
+  page: wpPage(slug: {eq: "forside"}) {
     id
     title
 	uri

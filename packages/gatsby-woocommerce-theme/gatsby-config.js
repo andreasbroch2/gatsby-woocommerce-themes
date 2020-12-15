@@ -32,19 +32,19 @@ module.exports = ({ wordPressUrl, gatsbySiteUrl, googleTagManagerId, fbAppId }) 
         url: `${wordPressUrl}/graphql`,
         verbose: true,
         develop: {
-          nodeUpdateInterval: 3000,
+          nodeUpdateInterval: 30000,
           hardCacheMediaFiles: true,
         },
         production: {
           hardCacheMediaFiles: false,
         },
         schema: {
-          perPage: 50, 
-          requestConcurrency: 5,
+          perPage: 20, 
+          requestConcurrency: 2,
         },
         debug: {
           graphql: {
-            showQueryOnError: false,
+            showQueryOnError: true,
             showQueryVarsOnError: true,
             copyQueryOnError: true,
             panicOnError: true,
