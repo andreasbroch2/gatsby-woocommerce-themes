@@ -26,7 +26,7 @@ const FrontPage = ( props ) => {
 							title={ title }
 							seoData={ seo }
 							uri={ uri }
-							header={ { siteTitle: 'Gatsby WooCommerce Theme' } }
+							header={ { siteTitle: 'Gaia Madservice' } }
 							openGraphImage={ getOgImage( seo ) }
 						/>
 						<Carousel categories={ categories }/>

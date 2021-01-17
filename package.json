@@ -36,5 +36,7 @@
     "url": "https://github.com/imranhsayed/gatsby-woocommerce-themes/issues"
   },
   "homepage": "https://github.com/imranhsayed/gatsby-woocommerce-themes#readme",
-  "dependencies": {}
+  "dependencies": {
+    "react": "^17.0.1"
+  }
 }
